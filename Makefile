@@ -26,5 +26,7 @@ LIBS = -lm
 $(EXE) : $(OBJS)
 	$(CC) $(CFLAGS) -o $@ $(OBJS) $(LIBS)
 
+calc.o: calc.h
+
 clean:
 	rm -f $(EXE) $(OBJS)
