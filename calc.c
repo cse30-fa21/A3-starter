@@ -44,7 +44,10 @@ void pop()
  * Get an entry from the stack.
  *
  * If passed a postive number, return the oldest stack entry.
- * If passed a 0, return the next oldest stack entry (with respect to a prior call).
+ * Else, return the next oldest stack entry (with respect to a prior call).
+ * 
+ * Passing in a positive number should reset the sequence back to the oldest 
+ * stack entry.
  */
 double get_entry(int flag)
 {
