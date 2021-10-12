@@ -29,7 +29,7 @@ int push(double d)
 }
 
 /**
- * Pop the current top of stack and set the prior top of stack to 0.0.
+ * Pop the current entry on the top of stack.
  *
  * Do nothing if there nothing on the stack.
  */
